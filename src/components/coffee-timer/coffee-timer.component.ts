@@ -34,10 +34,10 @@ export class CoffeeTimerComponent {
           this.minutes++;
         }
 
-        if (this.seconds == 4) {
+        if (this.minutes == 4) {
           FourMinutesNotif.play();
         }
-        if (this.seconds == 9) {
+        if (this.minutes == 9) {
           NineMinutesNotif.play();
           this.resetTimer();
         }
