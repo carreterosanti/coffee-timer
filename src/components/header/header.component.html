@@ -1,14 +1,19 @@
 <header class="header">
   <h1>Coffee Timer</h1>
-
-  <a
-    *ngIf="!(isSettings$ | async)"
-    routerLink="/settings"
-    routerLinkActive="active"
-  >
-    <mat-icon aria-hidden="false">settings</mat-icon>
-  </a>
-  <a *ngIf="isSettings$ | async" routerLink="/" routerLinkActive="active">
-    <mat-icon aria-hidden="false">close</mat-icon>
-  </a>
+  <ng-container *ngIf="currentRoute$ | async as currentRoute">
+    <a
+      *ngIf="currentRoute == '/'"
+      routerLink="/settings"
+      routerLinkActive="active"
+    >
+      <mat-icon aria-hidden="false">settings</mat-icon>
+    </a>
+    <a
+      *ngIf="currentRoute == '/settings'"
+      routerLink="/"
+      routerLinkActive="active"
+    >
+      <mat-icon aria-hidden="false">close</mat-icon>
+    </a>
+  </ng-container>
 </header>

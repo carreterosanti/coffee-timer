@@ -8,10 +8,10 @@ import { filter, map } from 'rxjs/operators';
 export class CurrentRouteService {
   constructor(private router: Router) {}
 
-  isRouteSettings() {
+  getCurrentRoute() {
     return this.router.events.pipe(
       filter((data) => data instanceof NavigationEnd),
-      map((data: any) => data.url == '/settings')
+      map((data: any) => data.url)
     );
   }
 }

@@ -7,9 +7,9 @@ import { CurrentRouteService } from 'src/services/current-route.service';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  public isSettings$: any;
+  public currentRoute$: any;
 
   constructor(currentRouteService: CurrentRouteService) {
-    this.isSettings$ = currentRouteService.isRouteSettings();
+    this.currentRoute$ = currentRouteService.getCurrentRoute();
   }
 }
