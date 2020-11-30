@@ -1,0 +1,17 @@
+<div class="coffee-timer">
+  <div
+    class="coffee-timer__counter"
+    [ngClass]="{
+      'coffee-timer__counter--running': running
+    }"
+    (swipe)="onSwipe($event)"
+    (click)="startPauseTimer()"
+  >
+    <p>
+      {{ minutes }}
+    </p>
+    <p>:</p>
+    <p>{{ seconds }}</p>
+  </div>
+  <p style="color: grey">v 1.0</p>
+</div>

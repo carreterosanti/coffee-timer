@@ -14,6 +14,7 @@ import {
   HammerGestureConfig,
   HAMMER_GESTURE_CONFIG,
 } from '@angular/platform-browser';
+import { HeaderModule } from 'src/components/header/header.module';
 
 @Injectable()
 export class MyHammerConfig extends HammerGestureConfig {
@@ -28,11 +29,13 @@ export class MyHammerConfig extends HammerGestureConfig {
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
     }),
+    //Angular Material
+    MatButtonModule,
     HammerModule,
+    HeaderModule,
   ],
   providers: [
     {

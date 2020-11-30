@@ -1,33 +1,7 @@
-.coffee-timer {
-  height: 100%;
-  width: 100%;
-  margin: auto;
-  background-color: #000000;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
   font-family: "Roboto";
-
-  &__counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    border: 10px dashed #787878;
-    border-radius: 50%;
-    color: white;
-    height: 120px;
-    width: 120px;
-    font-size: 90px;
-    line-height: 90px;
-
-    &--running {
-      border: 10px dashed #82e6a0;
-    }
-  }
-
-  p {
+  p,
+  h1 {
     margin: 0;
   }
 }
