@@ -1,21 +1,21 @@
 {
-  "name": "coffee-timer",
-  "short_name": "coffee-timer",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Coffee Timer",
+  "short_name": "Coffee Timer",
+  "theme_color": "#2C2C35",
+  "background_color": "#2C2C35",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
   "icons": [
     {
-      "src": "assets/icons/icon-72x72.png",
-      "sizes": "72x72",
+      "src": "assets/icons/icon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "assets/icons/icon-96x96.png",
-      "sizes": "96x96",
+      "src": "assets/icons/icon-64x64.png",
+      "sizes": "64x64",
       "type": "image/png",
       "purpose": "maskable any"
     },
@@ -26,32 +26,8 @@
       "purpose": "maskable any"
     },
     {
-      "src": "assets/icons/icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "assets/icons/icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "assets/icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "assets/icons/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "assets/icons/icon-512x512.png",
-      "sizes": "512x512",
+      "src": "assets/icons/icon-256x256.png",
+      "sizes": "256x256",
       "type": "image/png",
       "purpose": "maskable any"
     }
