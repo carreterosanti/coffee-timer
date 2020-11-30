@@ -31,10 +31,7 @@
               "src/assets",
               "src/manifest.webmanifest"
             ],
-            "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss", "src/assets/fonts/Nunito Sans.css"],
             "scripts": []
           },
           "configurations": {
@@ -113,9 +110,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
