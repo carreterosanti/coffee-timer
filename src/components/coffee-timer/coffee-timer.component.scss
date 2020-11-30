@@ -17,6 +17,10 @@
     &--running {
       border: 2px solid #82e6a0;
     }
+
+    &--paused {
+      border: 2px solid #ebd46f;
+    }
   }
 
   p {

@@ -2,7 +2,8 @@
   <div
     class="coffee-timer__counter"
     [ngClass]="{
-      'coffee-timer__counter--running': running
+      'coffee-timer__counter--running': running,
+      'coffee-timer__counter--paused': !running && (minutes > 0 || seconds > 0)
     }"
     (swipe)="onSwipe($event)"
     (click)="startPauseTimer()"
