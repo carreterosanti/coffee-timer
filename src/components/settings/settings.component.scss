@@ -1,0 +1,40 @@
+:host {
+  height: 100%;
+  width: 100%;
+}
+
+.settings {
+  color: grey;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  &__dev-card {
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 2rem 3rem 2rem;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #2f2f39, #282830);
+    box-shadow: 32px 32px 51px #202027, -32px -32px 51px #383843;
+    text-decoration: none;
+    &--img {
+      max-width: 60px;
+      max-height: 60px;
+      margin-right: 1rem;
+    }
+
+    p {
+      margin: 5px;
+    }
+
+    &:visited,
+    &:active {
+      color: inherit;
+    }
+  }
+}
