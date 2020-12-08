@@ -12,7 +12,9 @@ Con notificación de audio a los 4 y 9 minutos.
 
 ## Implementación Proyecto
 El desarrollo del proyecto se realizó en **Angular**, partiendo desde la estructura inicial provista por **Angular CLI**.
+
 Se puede destacar la inclusión de las dependencias correspondientes (**@angular/pwa** y **@angular/service-worker**) para permitir la utilización de la aplicación como una nativa en plataformas como Android e IOS. 
+
 Por otro lado también podemos destacar que el hosting de la herramienta se realiza mediante la plataforma de Google: **Firebase**.
 
 #### Conceptos de Angular aplicados: 
