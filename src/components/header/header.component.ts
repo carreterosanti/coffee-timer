@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
 import { CurrentRouteService } from 'src/services/current-route.service';
 
 @Component({
@@ -7,7 +8,7 @@ import { CurrentRouteService } from 'src/services/current-route.service';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
-  public currentRoute$: any;
+  public currentRoute$: Observable<any>;
 
   constructor(currentRouteService: CurrentRouteService) {
     this.currentRoute$ = currentRouteService.getCurrentRoute();
