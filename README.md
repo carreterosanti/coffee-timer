@@ -6,7 +6,7 @@ Temporizador de 9 minutos, especifico para la técnica de preparación de café 
 
 Con notificación de audio a los 4 y 9 minutos. 
 
-#### Detalle Técnica de Preparación:
+#### Técnica de Preparación:
 - Español: https://www.youtube.com/watch?v=Hwe6bJu29Bg&ab_channel=flat%26white
 - Ingles: https://www.youtube.com/watch?v=st571DYYTR8&ab_channel=JamesHoffmann
 
