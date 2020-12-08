@@ -3,7 +3,8 @@
 Link: http://coffee-timer-angular.web.app/
 
 Temporizador de 9 minutos, especifico para la técnica de preparación de café en "Prensa Francesa". 
-Sonido de notificación a los 4 y 9 minutos. 
+
+Con notificación de audio a los 4 y 9 minutos. 
 
 #### Detalle Técnica de Preparación:
 - Español: https://www.youtube.com/watch?v=Hwe6bJu29Bg&ab_channel=flat%26white
