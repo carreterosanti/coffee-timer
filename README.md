@@ -1,27 +1,26 @@
-# CoffeeTimer
+## Coffee Timer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+Link: http://coffee-timer-angular.web.app/
 
-## Development server
+Temporizador de 9 minutos, especifico para la técnica de preparación de café en "Prensa Francesa". 
+Sonido de notificación a los 4 y 9 minutos. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Detalle Técnica de Preparación:
+- Español: https://www.youtube.com/watch?v=Hwe6bJu29Bg&ab_channel=flat%26white
+- Ingles: https://www.youtube.com/watch?v=st571DYYTR8&t=147s&ab_channel=JamesHoffmann
 
-## Code scaffolding
+## Implementación Proyecto
+El desarrollo del proyecto se realizó en **Angular**, partiendo desde la estructura inicial provista por **Angular CLI**.
+Se puede destacar la inclusión de las dependencias correspondientes (**@angular/pwa** y **@angular/service-worker**) para permitir la utilización de la aplicación como una nativa en plataformas como Android e IOS. 
+Por otro lado también podemos destacar que el hosting de la herramienta se realiza mediante la plataforma de Google: **Firebase**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Conceptos de Angular aplicados: 
+- Encapsulación en componentes
+- Ruteo provisto por el RouterModule
+- Servicios
+- Observables 
+- ngClass
+- ngIf
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
